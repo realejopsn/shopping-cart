@@ -18,27 +18,17 @@
         <nav class="navbar navbar-default navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
-
-                    <!-- Collapsed Hamburger -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        <b>{{ config('app.name', 'Laravel') }}</b>
                     </a>
+                    <div class="box-m hidden-sm hidden-md hidden-lg pull-right">
+                            <!-- Authentication Links -->
+                          <a href="{{ route('login') }}">Login</a> <a href="{{ route('register') }}">Register</a>
+                    </div>
                 </div>
-
+                <!-- Left Side Of Navbar -->
                 <div class="collapse navbar-collapse" id="app-navbar-collapse ">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right ">
                         <!-- Authentication Links -->

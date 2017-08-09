@@ -8355,3 +8355,26 @@ button.close {
   border-radius: 0px;
 }
 
+.box-m {
+  padding: 14px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  height: 50px;
+}
+
+.box-m a {
+  color: #9d9d9d;
+}
+
+.box-m a:nth-child(1) {
+  margin-right: 10px;
+}
+
+.main {
+  padding: 2px;
+}
+
+#ps4-left-content-out {
+  padding-top: 5px;
+}
+
